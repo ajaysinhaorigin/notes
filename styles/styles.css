@@ -1,0 +1,15 @@
+/** Simple Reset - START */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container{
+  color:"#222"
+}

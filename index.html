@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&display=swap" rel="stylesheet">
     <title>Notes | Create notes over an instant</title>
 </head>
+
 <body>
-    <div class="container">Notes</div>
+    <div class="container">
+        <header class="toolbox">
+            <form id="add-category-form">
+                <div class="input-field">
+                    <input type="text" placeholder="Category title">
+                </div>
+                <button type="submit" class="icon-button toolbox__btn" title="Add New Category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="16"></line>
+                        <line x1="8" y1="12" x2="16" y2="12"></line>
+                    </svg>
+                </button>
+            </form>
+        </header>
+    </div>
 </body>
 </html>

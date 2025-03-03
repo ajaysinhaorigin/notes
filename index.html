@@ -17,8 +17,8 @@
                     <input type="text" placeholder="Category title">
                 </div>
 
-                    <button type="submit" class="icon-button toolbox__btn" title="Add New Category">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                <button type="submit" class="icon-button toolbox__btn" title="Add New Category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <line x1="12" y1="8" x2="12" y2="16"></line>
@@ -53,6 +53,21 @@
                 </button>
             </div>
         </header>
-    </div>  
+        <main>
+            <section id="categories-list"></section>
+
+            <section id="notes-list"></section>
+
+            <section id="note-editor">
+                <form id="note-add-edit-form">
+                    <input type="text" name="note-title" autocomplete="off" placeholder="Note title" />
+                    <textarea name="note-content" id="note-content" placeholder="Note content..."></textarea>
+                    <button type="submit">Save Note</button>
+                </form>
+            </section>
+
+        </main>
+    </div>
 </body>
+
 </html>
